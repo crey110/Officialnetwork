@@ -1,0 +1,417 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.4.1
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd,
+	q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr,
+	th, td, article, aside, canvas, details, figcaption, figure, footer,
+	header, hgroup, menu, nav, section, summary, time, mark, audio, video ,textarea{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	-webkit-font-smoothing: antialiased;
+	font-family: "FZLanTingHei-L-GBK", "Helvetica Neue", "方正黑体简", "黑体",
+		Helvetica, STHeiTi, sans-serif,iconfont;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  background-color: #f7f7f7;
+	line-height: 1;
+	/* overflow-x:hidden; */
+}
+
+:focus {
+	outline: 1;
+	outline: none;
+}
+
+article, aside, canvas, details, figcaption, figure, footer, header,
+	hgroup, menu, nav, section, summary {
+	display: block;
+}
+
+div,ul,li,a,p,span,i,em{
+
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  list-style: none;
+}
+
+nav ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted #000;
+	cursor: help;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input, select {
+	vertical-align: middle;
+}
+
+a {
+	text-decoration:none;
+  outline:none;
+}
+/*html{font-size: 14px;}
+
+@media screen and (min-device-width:375px) {
+	html{font-size: 16px;}
+}
+
+@media screen and (min-device-width:414px) {
+	html{font-size: 17px;}
+}*/
+
+
+
+/*------------多行文本溢出--------------*/
+.in5line {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  /*控制文本溢出的行数*/
+}
+.in1line {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.in2line {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+/*------------布局使用样式--------------*/
+.wrap-d-colum{
+  flex-direction: column;
+}
+.wrap-content {
+  -webkit-box-flex: 1;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -webkit-flex: 1;
+  /* Chrome */
+  -ms-flex: 1;
+  /* IE 10 */
+  flex: 1;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.wrap-content2 {
+  -webkit-box-flex: 2;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -webkit-flex: 2;
+  /* Chrome */
+  -ms-flex: 2;
+  /* IE 10 */
+  flex: 2;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.wrap-content3 {
+  -webkit-box-flex: 3;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -webkit-flex: 3;
+  /* Chrome */
+  -ms-flex: 3;
+  /* IE 10 */
+  flex: 3;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.wrap-content4 {
+  -webkit-box-flex: 4;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -webkit-flex: 4;
+  /* Chrome */
+  -ms-flex: 4;
+  /* IE 10 */
+  flex: 4;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.wrap-content5 {
+  -webkit-box-flex: 5;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -webkit-flex: 5;
+  /* Chrome */
+  -ms-flex: 5;
+  /* IE 10 */
+  flex: 5;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.wrap-content6 {
+  -webkit-box-flex: 6;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -webkit-flex: 6;
+  /* Chrome */
+  -ms-flex: 6;
+  /* IE 10 */
+  flex: 6;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.wrap-content1-9 {
+  -webkit-box-flex: 1.9;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -webkit-flex: 1.9;
+  /* Chrome */
+  -ms-flex: 1.9;
+  /* IE 10 */
+  flex: 1.9;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.wrap-content3-1 {
+  -webkit-box-flex: 3.1;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -webkit-flex: 3.1;
+  /* Chrome */
+  -ms-flex: 3.1;
+  /* IE 10 */
+  flex:3.1;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.wrap-end {
+  -webkit-box-pack: end;
+  /* 09版 */
+  -webkit-box-align: end;
+  /* 12版 */
+  -webkit-align-items: end;
+  -moz-align-items: end;
+  -ms-align-items: end;
+  -o-align-items: end;
+  align-items: end;
+  justify-content: flex-end;
+}
+.page-wrap {
+  display: -webkit-box;
+  display: -webkit-flexbox;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.no-wrap {
+  white-space: nowrap;
+}
+.wrap-center {
+  /*水平居中*/
+  /*老版本语法*/
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  /*混合版本语法*/
+  -ms-flex-pack: center;
+  /*新版本语法*/
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.wrap-vcenter {
+  /*垂直居中*/
+  /*老版本语法*/
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  /*混合版本语法*/
+  -ms-flex-align: center;
+  /*新版本语法*/
+  -webkit-align-items: center;
+  align-items: center;
+}
+.wrap-wrap {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+.wrap-between {
+  box-pack: justify;
+  justify-content: space-between;
+  -webkit-justify-content:space-between;
+}
+
+/*1像素边框*/
+.scale1px {
+  position: relative;
+  border: none;
+}
+.scale1px:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #BBBBBB;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 200%;
+  height: 200%;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+}
+
+ 
+ /* 下边框一像素 */
+ 
+ 
+ .line-bottom:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: #EEE;
+  -webkit-transform: scale(1, .5);
+  transform: scale(1, .5);
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom
+}
+
+.line-top, .line-bottom {
+  position: relative;
+}
+
+
+/* 上边框一像素 */
+.line-top:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 1px;
+  background-color: #EEE;
+  -webkit-transform: scale(1, .5);
+  transform: scale(1, .5);
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom
+}
+
+.line_bottom_eee,
+.line_top_eee {
+  position: relative;
+}
+
+.line_top_eee:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 1px;
+  background-color: #eee;
+  -webkit-transform: scale(1, .5);
+  transform: scale(1, .5);
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom
+}
+
+.line_bottom_eee:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: #eee;
+  -webkit-transform: scale(1, .5);
+  transform: scale(1, .5);
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom
+}
+.line-color-investm:after {
+  background-color: #EEEEEE;
+}
+
+.line_bottom {
+  border-bottom: solid 1px #e2e2e2;
+}
+.line_top {
+  border-top: solid 1px #e2e2e2;
+}
+.line_left {
+  background: linear-gradient( #EEE, #EEE 100%, transparent 100%) left / 1px 100% no-repeat;
+}
+/*去掉苹果的默认UI来渲染按钮*/
+input, select, textarea, button { font-family: inherit; }
+input, button, select, option { box-shadow: none; -webkit-appearance: none; border: none; outline: none; }
+/*去除点击高亮效果*/
+a, button, input, select, img, label { -webkit-tap-highlight-color: transparent; }
+select,
+input { vertical-align: middle; }
+/*placeholder文本颜色*/
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #ccc; }
+
+.loadmore-pad{
+  padding:  .15rem 0;
+}

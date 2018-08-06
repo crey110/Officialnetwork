@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com</groupId>
-  <artifactId>xjn</artifactId>
+  <artifactId>salf</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>cmfz Maven Webapp</name>
+  <name>salf Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -247,6 +247,6 @@
   </dependencies>
 
   <build>
-    <finalName>xjn</finalName>
+    <finalName>salf</finalName>
   </build>
 </project>

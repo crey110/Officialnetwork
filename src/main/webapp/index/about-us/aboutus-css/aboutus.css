@@ -1,0 +1,424 @@
+
+
+
+
+/*头部*/
+
+.header-out{
+	width:100%;
+	height:auto;
+	background-image:url(../aboutus-imgs/1_01.gif);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	overflow:hidden;
+}
+.header-out .header-interval{
+	width:1180px;
+	height:328px;
+	position:relative;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.header-interval .logo{
+	width:151px;
+	height:40px;
+	
+	float:left;
+	margin-top:20px;
+}
+
+.header-interval .aboutus{
+	width:12px;
+	height:110px;
+	float:left;
+	margin-top:144px;
+	margin-left:-152px;
+}
+
+
+.header-interval .saifu-text{
+	width:520px;
+	height:65px;
+	
+	float:left;
+	margin-top:146px;
+}
+.header-interval .saifu-text h3{
+	font-size:48px;
+	color:white;
+	text-align:center;
+}
+
+.header-interval .saifu-text .bar{
+	width:97px;
+	height:2px;
+	margin-top:15px;
+	margin-left:105px;
+}
+.header-interval .saifu-text .bar img{
+	float:left;
+}
+
+/*导航*/
+.header-interval .navigation{
+	height:33px;
+	
+	float:right;
+	margin-top:44px;
+}
+.header-interval .navigation li{
+	float:left;
+	text-align:center;
+	padding-left:50px;
+}
+.header-interval .navigation li span{
+	display:block;
+}
+
+.header-interval .navigation li .na-one{
+	font-size:16px;
+	color:#7878c8;
+}
+.header-interval .navigation li .na-two{
+	font-size:10px;
+	color:#7878c8;
+	padding-top:7px;
+}
+.header-interval .navigation li a:hover span{
+	color:white
+}
+.header-interval .positionse{
+	width:1180px;
+	height:51px;
+	background:white;
+	position:absolute;
+	top:278px;
+}
+
+
+/*走进赛福*/
+
+.Enter-saifi-out{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	
+}
+.Enter-saifi-out .enter-saifu-interval{
+	width:1180px;
+	height:665px;
+	
+	margin:0 auto;
+}
+.Enter-saifi-out .enter-saifu-interval h4{
+	font-size:29px;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:18px;
+}
+
+.Enter-saifi-out .enter-saifu-interval p{
+	width:1071px;
+	
+	margin:0 auto;
+	font-size:14px;
+	color:#494949;
+	line-height:48px;
+}
+
+/*<!--核心团队-->*/
+.team-out{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	
+}
+.team-out .team-interval{
+	width:1180px;
+	height:771px;
+	
+	margin:0 auto;
+}
+
+.team-interval .The-title{
+	width:114px;
+	height:68px;
+	
+	margin:0 auto;
+}
+
+.team-interval .The-title .pics{
+	width:114px;
+	height:2px;
+	
+}
+
+.team-interval .The-title .pics img{
+	float:left;
+}
+
+.team-interval .The-title p:nth-of-type(1){
+	font-size:23px;
+	color:#333470;
+	text-align:center;
+}
+.team-interval .The-title p:nth-of-type(2){
+	font-size:12px;
+	color:#333470;
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:18px;
+}
+
+.team-interval .michal-jnason{
+	width:821px;
+	height:auto;
+	
+	margin:0 auto;
+	margin-top:68px;
+	overflow:hidden;
+}
+
+.team-interval .michal-jnason li{
+	width:304px;
+	float:left;
+}
+.team-interval .michal-jnason li:nth-child(2){
+	margin-left:213px;
+}
+.team-interval .michal-jnason li .mical-pic{
+	width:304px;
+	height:301px;
+	
+	
+}
+.team-interval .michal-jnason li .mical-pic img{
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+.team-interval .michal-jnason li p:nth-of-type(1){
+	font-size:15px;
+	text-align:center;
+}
+.team-interval .michal-jnason li span{
+	text-align:center;
+	font-size:10px;
+	display:block;
+	color:#a1a1a1;
+	padding-top:14px;
+	padding-bottom:23px;
+}
+.team-interval .michal-jnason li p:nth-of-type(2){
+	font-size:13px;
+	text-align:center;
+	color:#a1a1a1;
+	line-height:20px;
+}
+
+/*<!--connie-and-sahojie-->*/
+
+.connie-freda-out{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	
+	
+}
+
+.connie-freda-out .connie-freda-interval{
+	width:1180px;
+	height:607px;
+	
+	margin:0 auto;
+}
+
+.connie-freda-out .connie-freda-interval ul{
+	width:1180px;
+	height:auto;
+	
+}
+
+.connie-freda-out .connie-freda-interval ul li{
+	float:left;
+	width:201px;
+}
+.connie-freda-out .connie-freda-interval ul li:nth-child(2){
+	margin-left:45px;
+}
+.connie-freda-out .connie-freda-interval ul li:nth-child(3){
+	margin-left:45px;
+}
+.connie-freda-out .connie-freda-interval ul li:nth-child(4){
+	margin-left:45px;
+}
+.connie-freda-out .connie-freda-interval ul li:nth-child(5){
+	margin-left:40px;
+}
+.connie-freda-out .connie-freda-interval ul li div{
+	width:201px;
+	height:201px;
+}
+.connie-freda-out .connie-freda-interval ul li p{
+	width:154px;
+	text-align:center;
+	margin:0 auto;
+}
+.connie-freda-out .connie-freda-interval ul li p:nth-of-type(1){
+	font-size:15px;
+}
+.connie-freda-out .connie-freda-interval ul li p:nth-of-type(2){
+	font-size:10px;
+	color:#999999;
+	padding-top:10px;
+	padding-bottom:15px;
+}
+.connie-freda-out .connie-freda-interval ul li p:nth-of-type(3){
+	font-size:14px;
+	color:#999999;
+	line-height:20px;
+}
+.connie-freda-out .connie-freda-interval ul li div img{
+	width:201px;
+	height:201px;
+	margin:0 auto;
+}
+
+
+/*加入我们*/
+.last-twobox-out{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	
+}
+.last-twobox-out .last-twobox-interval{
+	width:1180px;
+	height:880px;
+	
+	margin:0 auto;
+	position:relative;
+}
+
+.last-twobox-out .last-twobox-interval ol{
+	width:1180px;
+	height:auto;
+	
+}
+
+.last-twobox-out .last-twobox-interval ol li div{
+	width:114px;
+	height:2px;
+	margin:0 auto;
+}
+.last-twobox-out .last-twobox-interval ol li{
+	width:143px;
+	height:72px;
+	text-align:center;
+	
+	float:left;
+	margin-left:120px;
+}
+.last-twobox-out .last-twobox-interval ol li:nth-child(5){
+	margin-top:116px;
+}
+.last-twobox-out .last-twobox-interval ol li:nth-child(6){
+	margin-top:116px;
+}
+.last-twobox-out .last-twobox-interval ol li:nth-child(7){
+	margin-top:116px;
+}
+
+.last-twobox-out .last-twobox-interval ol li:nth-child(8){
+	margin-top:116px;
+}
+
+.last-twobox-out .last-twobox-interval ol li div img{
+	float:left;
+	
+}
+
+
+.last-twobox-out .last-twobox-interval ol li:nth-child(1) p:nth-child(1){
+	font-size:23px;
+}
+.last-twobox-out .last-twobox-interval ol li:nth-child(1) p:nth-child(2){
+	font-size:12px;
+	padding-top:16px;
+	padding-bottom:15px;
+}
+.last-twobox-out .last-twobox-interval ol li p{
+	font-size:17px;
+}
+.last-twobox-out .last-twobox-interval ol li span{
+	display:block;
+	width:100px;
+	height:30px;
+	background:white;
+	line-height:30px;
+	margin:0 auto;
+	margin-top:25px;
+	color:#999999;
+	border-radius: 20px;
+}
+
+.last-twobox-out .last-twobox-interval ol li span:hover{
+	background:#00deff;
+	color:white;
+}
+
+.last-twobox-interval .address{
+	width:459px;
+	height:134px;
+	
+	float:right;
+	margin-top:431px;
+}
+
+.last-twobox-interval .address div img{
+	float:left;
+}
+.last-twobox-interval .address div img{
+	padding-right:14px;
+}
+.last-twobox-interval .address div p{
+	font-size:12px;
+}
+.last-twobox-interval .address div:nth-child(2){
+	margin-top:42px;
+	margin-left:24px;
+}
+
+.last-twobox-interval .address div:nth-child(2) img{
+	padding-top:4px;
+}
+.last-twobox-interval .address div:nth-child(3){
+	margin-top:42px;
+	margin-left:40px;
+}
+/*<!--footr-banner-->*/
+.footer-banner-out{
+	width:100%;
+	height:auto;
+	
+	background-image:url(../aboutus-imgs/fotter.png);
+	background-size:100% 100%;
+}
+.footer-banner-out .footer-banner-interval{
+	width:1180px;
+	height:490px;
+	
+	margin:0 auto;
+	position:relative;
+}
+.footer-banner-out .footer-banner-interval .earth{
+	width:536px;
+	height:536px;
+	position:absolute;
+	bottom:274px;
+	z-index:10;
+}
+
+

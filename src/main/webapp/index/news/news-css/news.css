@@ -1,0 +1,217 @@
+
+
+
+
+
+.header-out{
+	width:100%;
+	height:auto;
+	background-image:url(../news-imgs/1_01.png);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	overflow:hidden;
+}
+.header-out .header-interval{
+	width:1180px;
+	height:328px;
+	position:relative;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.header-interval .logo{
+	width:151px;
+	height:40px;
+	
+	float:left;
+	margin-top:20px;
+}
+
+.header-interval .aboutus{
+	width:12px;
+	height:58px;
+	float:left;
+	margin-top:144px;
+	margin-left:-150px;
+}
+
+
+.header-interval .saifu-text{
+	width:206px;
+	height:65px;
+	
+	float:left;
+	margin-top:146px;
+}
+.header-interval .saifu-text h3{
+	font-size:48px;
+	color:white;
+	text-align:center;
+}
+
+.header-interval .saifu-text .bar{
+	width:97px;
+	height:2px;
+	margin-top:17px;
+	
+}
+.header-interval .saifu-text .bar img{
+	float:left;
+}
+
+/*导航*/
+.header-interval .navigation{
+	height:33px;
+	
+	float:right;
+	margin-top:44px;
+}
+.header-interval .navigation li{
+	float:left;
+	text-align:center;
+	padding-left:50px;
+}
+.header-interval .navigation li span{
+	display:block;
+}
+
+.header-interval .navigation li .na-one{
+	font-size:16px;
+	color:#7878c8;
+}
+.header-interval .navigation li .na-two{
+	font-size:10px;
+	color:#7878c8;
+	padding-top:7px;
+}
+.header-interval .navigation li a:hover span{
+	color:white
+}
+.header-interval .positionse{
+	width:1180px;
+	height:51px;
+	background:white;
+	position:absolute;
+	top:278px;
+}
+
+
+/*新闻部分*/
+
+.news-out{
+	width:100%;
+	height:auto;
+	
+	overflow:hidden;
+}
+
+.news-out .news-interval{
+	width:1180px;
+	height:1653px;
+	
+	margin:0 auto;
+}
+
+
+.news-interval .information-zx{
+	width:73px;
+	height:35px;
+	
+	text-align:center;
+	padding-top:34px;
+	padding-left:99px
+}
+.news-interval .information-zx div{
+	width:70px;
+	height:2px;
+	margin:0 auto;
+	padding-top:16px;
+}
+.news-interval .information-zx h4{
+	font-size:17px;
+}
+.news-interval .information-zx div img{
+	float:left;
+}
+
+
+
+/*<!--loading-news-->*/
+
+.loading-news{
+	width:966px;
+	height:auto;
+	
+	margin:0 auto;
+	
+}
+.loading-news li{
+	width:966px;
+	height:auto;
+	margin-top:40px;
+	overflow:hidden;
+}
+
+.loading-news li .date-left{
+	width:40px;
+	height:60px;
+	
+	text-align:center;
+	float:left;
+	
+}
+
+.loading-news li .date-left #write-text{
+	width:38px;
+	height:38px;
+	background:white;
+	border:1px solid #1edfff;
+	border-radius: 5px;
+	text-align:center;
+	line-height:38px;
+	font-size:12px;
+	color:#1edfff;
+}
+
+
+.loading-news li .date-left span{
+	display:block;
+	padding-top:10px;
+	color:#a1a1a1;
+	font-size:10px;
+}
+.loading-news li {
+	padding-bottom:23px;
+	border-bottom:1px dashed #e5e5e5;
+}
+.loading-news .right-text{
+	width:901px;
+	
+	float:right;
+	height:80px;
+}
+
+
+.loading-news .right-text h5{
+	font-size:14px;
+	color:#333333;
+	padding-bottom:18px;
+}
+.loading-news .right-text p{
+	font-size:12px;
+	color:#5d5d5d;
+	line-height:24px;
+}
+
+
+/*<!--footer-->*/
+
+.footer-out{
+	width:100%;
+	height:auto;
+	background-image:url(../news-imgs/14_02.gif);
+	background-size:100% 100%;
+}
+.footer-out .footer-interval{
+	height:600px;
+}

@@ -2,6 +2,7 @@ package com.salf.service;
 
 import com.salf.dao.QueryNewsDao;
 import com.salf.entity.News;
+import com.salf.util.MainWordsUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,38 +24,8 @@ public class QueryNewsServiceServiceImp implements QueryNewsService {
 
     public List<News> querynews() {
         List<News> newlist = new ArrayList<News>();
-
-
         List<News> list = queryNewsDao.querynews();
-        for(News news:list){
-            String title = news.getTitle();
-            String main = news.getMain();
-            int count = title.length();
-            int countmain = main.length();
-            if(count > 17) {
-                News newnews= new News();
-                newnews.setTitle(title.substring(0,15)+"...");
-                newnews.setId(news.getId());
-                if(countmain > 36){
-                    newnews.setMain(main.substring(0,34)+ "..." + "<a href='#'>更多</a>");
-                }else {
-                    newnews.setMain(news.getMain());
-                }
-                newlist.add(newnews);
-            }else{
-                News newnews= new News();
-                newnews.setTitle(title);
-                newnews.setId(news.getId());
-                if(countmain>36){
-                    newnews.setMain(main.substring(0,34)+ "..." + "<a href='#'>更多</a>");
-                }else {
-                    newnews.setMain(news.getMain());
-                }
-
-                newlist.add(newnews);
-            }
-        }
-        return newlist;
+        return MainWordsUtil.mainWordsUtil(list,newlist);
     }
 
 }

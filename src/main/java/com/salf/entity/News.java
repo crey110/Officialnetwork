@@ -9,7 +9,7 @@ public class News implements Serializable {
     private String main;
     private String title;
     private String img_src;
-    private Date date;
+    private String date;
 
     @Override
     public String toString() {
@@ -54,11 +54,11 @@ public class News implements Serializable {
         this.img_src = img_src;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 }

@@ -40,5 +40,4 @@ public class NewsPagingServiceServiceImp implements NewsPagingService {
         List<News> list = newsPagingDao.newspaging(pagefirst);
         return MainWordsUtil.mainWordsUtil(list,newlist);
     }
-
 }

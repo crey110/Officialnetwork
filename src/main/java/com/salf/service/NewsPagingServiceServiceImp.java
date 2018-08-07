@@ -38,7 +38,6 @@ public class NewsPagingServiceServiceImp implements NewsPagingService {
         }
         List<News> newlist = new ArrayList<News>();
         List<News> list = newsPagingDao.newspaging(pagefirst);
-        pagefirst = 0;
         return MainWordsUtil.mainWordsUtil(list,newlist);
     }
 

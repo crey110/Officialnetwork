@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface NewsPagingDao {
-    List<News> newspaging(@Param(value = "pagefirst") int pagefirst, @Param(value = "pageend") int pageend);
+    List<News> newspaging(int pagefirst);
 }

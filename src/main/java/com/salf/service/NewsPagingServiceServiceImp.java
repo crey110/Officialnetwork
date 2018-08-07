@@ -25,23 +25,20 @@ public class NewsPagingServiceServiceImp implements NewsPagingService {
 
     public List<News> newspaging(Integer pageno) {
         int page;
-
+        int pagefirst;
         if (pageno == null){
             page = 1;
         }else {
             page = pageno;
         }
-        int pagefirst;
-        int pageend;
         if (page <= 1){
             pagefirst = 0;
-            pageend = 6;
         }else {
             pagefirst = (page - 1) * 6;
-            pageend = page * 6;
         }
         List<News> newlist = new ArrayList<News>();
-        List<News> list = newsPagingDao.newspaging(pagefirst,pageend);
+        List<News> list = newsPagingDao.newspaging(pagefirst);
+        pagefirst = 0;
         return MainWordsUtil.mainWordsUtil(list,newlist);
     }
 
